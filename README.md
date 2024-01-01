@@ -15,3 +15,4 @@ make clean
 
 interesting stuff i learnt along the way
 - by convention, targets are supposed to match the filename in the filesystem but for targets such as `clean`, we mark it as a `PHONY` target. additionally this marker indicates that the command `make clean` is always out of date and will always run regardless of the state of the filesystem.
+- `?=` means variable is confiurable (up to user)
