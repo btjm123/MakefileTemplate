@@ -14,6 +14,6 @@ make clean
 ![make](https://github.com/btjm123/MakefileTemplate/assets/19306879/3640581e-7719-4865-a841-195b93aa1160)
 
 interesting stuff i learnt along the way
-- by convention, targets are supposed to match the filename in the filesystem but for targets such as `clean`, we mark it as a `PHONY` target. additionally this marker indicates that the command `make clean` is always out of date and will always run regardless of the state of the filesystem.
+- by convention, targets are supposed to match the filename in the filesystem but for targets such as `clean`, we mark it as a `PHONY` target. additionally this marker indicates that the fictional file 'clean' is always out of date  and `make clean` will always run regardless of the state of the filesystem.
 - `?=` means variable is confiurable (up to user)
 - the super odd if/else structure in Makefile
